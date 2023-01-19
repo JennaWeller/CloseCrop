@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import {
   ProductsContainer,
   ProductWrapper,
@@ -24,13 +25,18 @@ const Products = ({ heading, data }) => {
                 <ProductTitle> {product.name}</ProductTitle>
                 <ProductDesc> {product.desc} </ProductDesc>
                 <ProductPrice> {product.price} </ProductPrice>
-                <ProductButton> {product.button} </ProductButton>
+                <Link to={product.buttonLink}>
+                  <ProductButton> {product.button}
+                    {product.buttonLabel}
+                  </ProductButton> 
+                </Link>
+
               </ProductInfo>
             </ProductCard>
           );
         })}
       </ProductWrapper>
-      )
+      
     </ProductsContainer>
   );
 };

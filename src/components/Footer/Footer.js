@@ -29,21 +29,21 @@ function Footer() {
     <FooterContainer>
       <FooterSubscription>
         <FooterSubHeading>
-          Feel free to join our mailing list and never miss new cake launches! 
+        FAQ 
         </FooterSubHeading>
-        <FooterSubText>We're glad to have you join our community of treat lovers.</FooterSubText>
+        <FooterSubText>Feel free to Subscribe our mailing list!</FooterSubText>
         <Form>
           <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Join</Button>
+          <Button fontBig>Subscribe</Button>
         </Form>
       </FooterSubscription>
       <SocialMedia>
         <SocialMediaWrap>
           <SocialLogo to='/'>
             <NavIcon />
-            Brooke's Bakery
+            Close Crop
           </SocialLogo>
-          <WebsiteRights>Brooke's Bakery © 2022</WebsiteRights>
+          <WebsiteRights>Close Crop © 2023</WebsiteRights>
           <SocialIcons>
             <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
               <FaFacebook />

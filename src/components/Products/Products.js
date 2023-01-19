@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const ProductsContainer = styled.div`
   /* width: 100vw; */
-  min-height: 100vh;
-  background: #D9486E;
-  color: white;
+  min-height: 30vh;
+  background: #fff;
+  color: black;
 `;
 
 export const ProductWrapper = styled.div`
@@ -17,12 +17,12 @@ export const ProductWrapper = styled.div`
 export const ProductCard = styled.div`
   margin: 0 2rem;
   line-height: 2;
-  width: 300px;
+  width: 150px;
 `;
 
 export const ProductImg = styled.img`
-  height: 300px;
-  min-width: 300px;
+  height: 150px;
+  min-width: 150px;
   max-width: 100%;
  
 `;
@@ -60,11 +60,11 @@ export const ProductButton = styled.button`
   font-size: 1rem;
   padding: 1rem 4rem;
   border: none;
-  background: #101522;
+  background: #D68AFB;
   color: #fff;
   transition: 0.2 ease-out;
   &:hover {
-    background: #475478;
+    background: #08302F;
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #fff;

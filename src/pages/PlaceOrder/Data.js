@@ -8,8 +8,7 @@ export const sectionOne = {
     description: ' ', 
     buttonLabel: 'Submit',
     imgStart: '',
-    img: require('../../images/colorCake.png'),
-    alt: 'Credit Card'
+    alt: ''
   };
   
 

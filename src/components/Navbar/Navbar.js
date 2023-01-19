@@ -45,25 +45,25 @@ function Navbar() {
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
              <NavIcon/>
-              BROOKE'S BAKERY
+              Close Crop
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  Home
+                <NavLinks to='becomeVendor' onClick={closeMobileMenu}>
+                  Become a Vendor
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/cakes' onClick={closeMobileMenu}>
-                  Cakes
+                <NavLinks to='/exploreProduce' onClick={closeMobileMenu}>
+                  Explore Produce
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Custom Orders
+                <NavLinks to='/subscribe' onClick={closeMobileMenu}>
+                  Subscribe
                 </NavLinks>
               </NavItem>
               <NavItem>

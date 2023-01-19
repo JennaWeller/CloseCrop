@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import { FaBirthdayCake, FaShoppingCart} from 'react-icons/fa';
+import { FaCarrot, FaShoppingCart} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
-  background: #101522;
+  background: #D68AFB;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ export const NavLogo = styled(Link)`
   align-items: center;
 `;
 
-export const NavIcon = styled(FaBirthdayCake)`
+export const NavIcon = styled(FaCarrot)`
   margin-right: 0.5rem;
 `;
 export const CartIcon = styled(FaShoppingCart)`
@@ -58,6 +58,7 @@ export const NavMenu = styled.ul`
   align-items: center;
   list-style: none;
   text-align: center;
+  text-color: #D68AFB;
   @media screen and (max-width: 960px) {
     display: flex;
     flex-direction: column;
@@ -68,7 +69,7 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
-    background: #101522;
+    background: #D68AFB;
   }
 `;
 
@@ -76,7 +77,7 @@ export const NavItem = styled.li`
   height: 80px;
   border-bottom: 2px solid transparent;
   &:hover {
-    border-bottom: 2px solid #D9486E;
+    border-bottom: 2px solid #B5E484;
   }
   @media screen and (max-width: 960px) {
     width: 100%;
@@ -109,7 +110,7 @@ export const NavLinks = styled(Link)`
     width: 100%;
     display: table;
     &:hover {
-      color: #D9486E;
+      color: #B5E484;
       transition: all 0.3s ease;
     }
   }

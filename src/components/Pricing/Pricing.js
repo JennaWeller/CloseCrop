@@ -9,15 +9,15 @@ import {
 
 } from './Pricing.elements';
 import Products from "../Products";
-import {productData, productDataTwo} from "../Products/data";
+import {productData} from "../Products/data";
 function Pricing() {
   return (
-    <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
+    <IconContext.Provider value={{ color: '#fff', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Cakes</PricingHeading>
+          <PricingHeading>Eat local. Sell local. Prevent waste.</PricingHeading>
           <PricingContainer>
-     <Products data={productDataTwo}/> 
+     <Products data={productData}/> 
 
           </PricingContainer>
          

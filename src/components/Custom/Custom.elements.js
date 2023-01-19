@@ -1,18 +1,12 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import catCookieCake from '../../images/catCookieCake.png';
 
-export const CatCookie = styled.div`
-  background-image: url(${catCookieCake});
-  width: 500px;
-  height: 500px;
-`; 
 export const PricingSection = styled.div`
   padding: 100px 0 160px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #D9486E;
+  background: #fff;
 `;
 
 export const PricingWrapper = styled.div`
@@ -29,7 +23,7 @@ export const PricingWrapper = styled.div`
 `;
 
 export const PricingHeading = styled.h1`
-  color: #fff;
+  color: #1c2237;
   font-size: 48px;
   margin-bottom: 24px;
 `;
@@ -105,7 +99,7 @@ export const PricingCardFeatures = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #a9b3c1;
+  color: #fff;
 `;
 
 export const PricingCardFeature = styled.li`

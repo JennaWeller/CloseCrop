@@ -4,32 +4,29 @@ export const sectionOne = {
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: "Brooke's Bakery",
-    headline: 'Celebrate with Cake',
+    topLine: "",
+    headline: 'Discover Local Produce',
     description:
-      'Homemade cakes that taste as good as they look, guaranteed.',
-    buttonLabel: 'View Cakes',
-    buttonLink: '/cakes',
+      'Get our newsletter to be informed on produce in your area.',
+    buttonLabel: 'Subscribe',
+    buttonLink: '/subscribe',
     imgStart: '',
-    img: require('../../images/rainbowcake.png'),
+    img: require('../../images/GardenerLadyPhoto.png'),
     alt: 'Credit Card',
     start: ''
   };
   
   export const sectionTwo = {
     primary: true,
-    lightBg: false,
+    darkBg: true,
     lightTopLine: true,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'We Cater Events',
-    headline: 'If you want to cater a special event with cupcakes, cookies, or cake, we have got you covered',
+    headline: 'Finding Local Produce is Easy',
     description:
-      "Let us know at least a week ahead of time for parties of 20+ and two weeks ahead for larger parties.",
-    buttonLabel: 'Place Order',
-    buttonLink: '/placeOrder', 
-    imgStart: '',
-    img: require('../../images/colorCake.png'),
+      "1. Sign up 2. Select Preferences 3. Enjoy fresh produce",
+    buttonLabel: 'Explore Produce',
+    buttonLink: '/exploreProduce',
     start: ''
   };
   
@@ -39,31 +36,31 @@ export const sectionOne = {
     lightTopLine: false,
     lightText: false,
     lightTextDesc: false,
-    topLine: "Owner of Brooke's Bakery",
+    topLine: "",
     headline:
-      'Brooke Miller',
+      'Eat local. Sell local. Prevent waste.',
     description:
-      "Have you ever bought a cake that looked beautiful, but didn't taste so beautiful? We started Brooke's Bakery to make sure you don't have to compromise on taste for beauty.",
-    buttonLabel: 'View Cakes',
-    buttonLink: '/cakes',
+      "",
+    buttonLabel: 'Subscribe',
+    buttonLink: '/subscribe',
     imgStart: 'start',
-    img: require('../../images/profile.jpg'),
+    img: require('../../images/Fruit.png'),
     start: 'true'
   };
   
   export const sectionFour = {
     primary: true,
-    lightBg: false,
-    lightTopLine: true,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: "How Brooke's Bakery Began",
-    headline: 'Family Fun to Community Business',
+    lightBg: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "",
+    headline: 'How We Got Started',
     description:
-      'Brooke started trying out baking as a hobby, making cakes and treats for her family. Over time she grew  to love baking so much she decided to make it her job.',
-    buttonLabel: 'View Cakes',
-    buttonLink: '/cakes', 
+      'We created close crop as part of a university project. We want to help small growers reach their community and to bring healthy, affordable, fresh food to all!',
+    buttonLabel: 'Subscribe',
+    buttonLink: '/Subscribe', 
     imgStart: 'start',
-    img: require('../../images/brookeandCake.jpg'),
+    img: require('../../images/ProfileGrowerPic.png'),
     start: 'true'
   };
